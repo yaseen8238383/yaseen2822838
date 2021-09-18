@@ -71,7 +71,7 @@ foreach ($users as $user) {
 المتابعهم = $following\n 
 بوستات المتاح = $media\n
 تاريخ صيد متاح = ".date("Y")."/".date("n")."/".date("d")." : " . date('g:i') . "\n" . "
- (المطور @y_a_n_u_u)",
+ (المطور @RTYIJJk)",
                                 
                                 'parse_mode'=>'markdown']);
                                 
