@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Baghdad');
 if(!file_exists('config.json')){
-	$token = readline('ادخل توكنك: ');
-	$id = readline('ادخل ايديك: ');
+	$token = readline('Tokin: ');
+	$id = readline('id: ');
 	file_put_contents('config.json', json_encode(['id'=>$id,'token'=>$token]));
 	
 } else {
